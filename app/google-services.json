@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "295070424678",
+    "firebase_url": "https://srmu-e-library.firebaseio.com",
+    "project_id": "srmu-e-library",
+    "storage_bucket": "srmu-e-library.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295070424678:android:6b10d64be6017ee7b4d7a7",
+        "android_client_info": {
+          "package_name": "com.example.e_librarysrmu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295070424678-kdl0f4he8namdefi3qupkrb8dpfa1o6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-LowV5t9mi47pztsq7q1FbyQ40JD2n-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295070424678-kdl0f4he8namdefi3qupkrb8dpfa1o6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
