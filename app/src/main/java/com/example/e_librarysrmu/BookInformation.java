@@ -1,42 +1,32 @@
 package com.example.e_librarysrmu;
 
 public class BookInformation {
-    public String BookId;
-    public String BookName;
-    public String NumberOfCopies;
+    public String bookDBid;
+    public String bookId;
+    public String bookName;
+    public String numberOfCopies;
 
     BookInformation()
     {
 
     }
 
-    public BookInformation(String bookId, String bookName, String numberOfCopies) {
-        BookId = bookId;
-        BookName = bookName;
-        NumberOfCopies = numberOfCopies;
+    public BookInformation(String DBid,String bookId, String bookName, String numberOfCopies) {
+        this.bookDBid=DBid;
+        this.bookId = bookId;
+        this.bookName = bookName;
+        this.numberOfCopies = numberOfCopies;
     }
 
     public String getBookId() {
-        return BookId;
+        return bookId;
     }
 
     public String getBookName() {
-        return BookName;
+        return bookName;
     }
 
     public String getNumberOfCopies() {
-        return NumberOfCopies;
-    }
-
-    public void setBookId(String bookId) {
-        BookId = bookId;
-    }
-
-    public void setBookName(String bookName) {
-        BookName = bookName;
-    }
-
-    public void setNumberOfCopies(String numberOfCopies) {
-        NumberOfCopies = numberOfCopies;
+        return numberOfCopies;
     }
 }

@@ -7,19 +7,114 @@
     android:background="@drawable/background"
     tools:context=".Admin">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/bookId"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
         android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Book Id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164" />
+
+    <EditText
+        android:id="@+id/bookId1"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Book Id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
+
+    <EditText
+        android:id="@+id/noOfCopies"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Number of Copies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <EditText
+        android:id="@+id/bookName"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Book Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/addBookBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/btn_background"
         android:text="Add Book"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="273dp" />
+        android:textColor="#000"
+        android:onClick="addBookCall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/btn_background"
         android:text="Remove Book"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="341dp" />
+        android:textColor="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847" />
+
+    <Button
+        android:id="@+id/removeBookBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/btn_background"
+        android:text="Remove Book"
+        android:textColor="#000"
+        android:onClick="removeBookCall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

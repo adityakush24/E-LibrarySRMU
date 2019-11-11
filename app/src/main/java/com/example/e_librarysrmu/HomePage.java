@@ -29,4 +29,8 @@ public class HomePage extends AppCompatActivity {
         firebaseAuth.signOut();
         startActivity(new Intent(getApplicationContext(),MainActivity.class));
     }
+    public void OpenAdminPanel(View v)
+    {
+        startActivity(new Intent(getApplicationContext(),Admin.class));
+    }
 }

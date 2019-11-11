@@ -4,74 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomePage"
+    tools:context=".IssueBook"
     android:background="@drawable/background">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Log Out"
-        android:background="@drawable/btn_background"
-        android:textColor="#000"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick="SignOut"
-        app:layout_constraintVertical_bias="0.04" />
 
-    <Button
-        android:id="@+id/adminbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/btn_background"
-        android:onClick="OpenAdminPanel"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:text="Admin Panel"
-        android:textColor="#000"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.039" />
-
-    <Button
-        android:id="@+id/button2"
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Book Id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:background="@drawable/btn_background"
+        android:text="Check Availability"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
         android:text="Issue Book"
         android:textColor="#000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.439" />
+        app:layout_constraintVertical_bias="0.65" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="50dp"
-        android:layout_marginStart="50dp"
-        android:textColor="#000"
-        android:background="@drawable/btn_background"
-        android:text="Return Book"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56" />
+        app:layout_constraintVertical_bias="0.397" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
